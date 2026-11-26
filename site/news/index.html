@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="theme-color" content="#0b0a0f">
+  <meta name="description" content="全球汽车外饰设计资讯：造型趋势、新车发布、概念车、材料应用与设计师访谈。">
+  <title>全球外饰设计情报 | FORM/INDEX</title>
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="references.css">
+  <script src="references.js" defer></script>
+  <script src="cloud-client.js" defer></script><script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">跳至资讯</a>
+  <header class="topbar">
+    <div class="topbar-inner shell">
+      <button class="brand" id="home" aria-label="FORM/INDEX 首页">
+        <img src="assets/mark.svg" alt="" width="31" height="31">
+        <span>FORM<span class="brand-slash">/</span>INDEX<small>EXTERIOR DESIGN INTELLIGENCE</small></span>
+      </button>
+      <nav id="navigation" class="navigation" aria-label="资讯分类"></nav>
+      <div class="utilities"><a id="update-resources" class="icon-button" hidden target="_blank" rel="noopener noreferrer" title="登录 GitHub 后运行抓取与发布" aria-label="更新资源：打开 GitHub 工作流">更新资源 ↗</a>
+        <button class="icon-button refresh-button" id="refresh-now" type="button" title="立即检查资讯源" aria-label="立即刷新资讯" aria-busy="false"><span data-icon="refresh"></span><span id="refresh-label">刷新</span></button>
+        <button class="icon-button" id="search-open" title="搜索" aria-label="搜索" data-icon="search"></button>
+        <button class="icon-button" id="saved-open" title="我的收藏" aria-label="我的收藏" aria-pressed="false" data-icon="bookmark"></button>
+      </div>
+    </div>
+  </header>
+  <main class="shell" id="main">
+    <section class="masthead" aria-labelledby="page-title">
+      <div>
+        <p class="eyebrow"><span></span> GLOBAL AUTOMOTIVE DESIGN BRIEF</p>
+        <h1 id="page-title">全球外饰<span>设计情报</span></h1>
+        <p class="subtitle">追踪全球汽车外饰造型、概念车与材料创新。</p>
+      </div>
+      <button class="sync glass" id="sync-open" aria-label="查看资讯更新状态">
+        <span class="sync-icon" data-icon="refresh"></span>
+        <span><strong>每日抓取 · 刷新查看已发布内容</strong><small id="sync-label" role="status">正在载入更新状态</small></span>
+        <span class="sync-arrow" data-icon="chevron"></span>
+      </button>
+    </section>
+    <section id="featured" class="feature" aria-label="焦点报道" hidden></section>
+    <section class="feed" aria-labelledby="feed-title">
+      <div class="feed-heading">
+        <h2 id="feed-title">近期资讯</h2>
+        <div class="feed-actions">
+          <span id="count" class="count" aria-live="polite"></span>
+          <label class="sort glass"><span data-icon="sort"></span><select id="sort" aria-label="资讯排序"><option value="latest">最新发布</option><option value="oldest">最早发布</option></select><span data-icon="down"></span></label>
+        </div>
+      </div>
+      <div id="active-search" class="active-search" hidden></div>
+      <div class="grid" id="cards" aria-busy="true"><p class="empty">正在载入资讯…</p></div>
+      <button id="more" class="more glass" hidden>加载更多 <span data-icon="down"></span></button>
+    </section>
+  </main>
+  <footer class="shell footer">
+    <div><img src="assets/mark.svg" alt="" width="23" height="23"><strong>FORM/INDEX</strong><span>汽车外饰设计情报</span></div>
+    <button id="sources-open" title="查看资讯来源">资讯来源 <span data-icon="external"></span></button>
+  </footer>
+  <dialog id="dialog" aria-labelledby="dialog-title"><div id="dialog-body"></div></dialog>
+  <template id="article-template">
+    <article class="story glass">
+      <div class="story-media"><img alt="" loading="lazy" width="960" height="540"><span class="story-placeholder" aria-hidden="true"></span><span class="tag"></span><button class="icon-button story-save" data-icon="bookmark"></button></div>
+      <div class="story-body"><p class="meta"></p><h3><button class="story-title"></button></h3><p class="story-summary"></p><div class="story-footer"><a class="original" target="_blank" rel="noopener noreferrer">查看原文 <span data-icon="external"></span></a><button class="icon-button story-open" title="阅读简报" aria-label="阅读简报" data-icon="arrow"></button></div></div>
+    </article>
+  </template>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="theme-color" content="#101014">
+  <title>车形参考库 · FORM/STUDY</title>
+  <link rel="icon" href="mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="references.css">
+  <script defer src="references.js"></script>
+  <script defer src="cloud-client.js"></script><script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#gallery">跳至图库</a>
+  <header class="top">
+    <div class="top-inner shell">
+      <a class="brand" href="./" aria-label="车形参考库首页"><img src="mark.svg" width="38" height="38" alt=""><span>FORM<span class="slash">/</span>STUDY<small>AUTOMOTIVE SKETCH LIBRARY</small></span></a>
+      <nav id="types" aria-label="车型分类"></nav>
+      <div class="pages-controls"><a id="update-resources" class="icon-button" hidden target="_blank" rel="noopener noreferrer" title="登录 GitHub 后运行抓取与发布" aria-label="更新资源：打开 GitHub 工作流">更新资源 ↗</a><button id="refresh" type="button" class="refresh glass" title="读取最新已发布图库，保留当前筛选"><span data-icon="refresh"></span><span id="refresh-label">刷新图片</span></button></div>
+    </div>
+  </header>
+  <main class="shell">
+    <section class="intro">
+      <div class="intro-content">
+        <p class="eyebrow"><i></i> THE SKETCH REFERENCE INDEX</p>
+        <h1>车形<span>参考库</span></h1>
+        <p class="subtitle">找一张车图练手，研究比例、轮廓和光影。</p>
+      </div>
+      <div class="issue glass">
+        <div class="issue-icon" data-icon="calendar"></div>
+        <div><span>今日练习图集</span><time id="today"></time><small id="sync-status" role="status">正在连接图库</small></div>
+        <span class="issue-dot" aria-hidden="true"></span>
+      </div>
+    </section>
+    <div class="workspace">
+      <aside class="rail" aria-label="按视角筛选">
+        <div class="rail-panel glass">
+          <p class="rail-kicker">VIEWPOINTS</p>
+          <h2>视角筛选</h2>
+          <div id="views"></div>
+        </div>
+        <div class="rail-note"><span data-icon="spark"></span><div><strong>从哪一笔开始？</strong><p>先找轮轴和车顶最高点，再画灯组与车身分缝。</p></div></div>
+      </aside>
+      <section id="gallery" aria-labelledby="gallery-title">
+        <div class="gallery-head"><div><p id="crumb">参考图库 / 全部车型</p><h2 id="gallery-title">今日推荐</h2></div><span id="count" class="count"></span></div>
+        <div id="grid" class="grid" aria-busy="true"><p class="empty">正在载入车辆图片…</p></div>
+        <div id="sentinel"><button type="button" id="load" class="glass" hidden>加载更多 <span data-icon="down"></span></button><span id="end"></span></div>
+      </section>
+    </div>
+  </main>
+  <footer class="shell footer"><strong>FORM/STUDY</strong><span>每日联网补图 · 图源与授权见详情</span></footer>
+  <div id="announce" class="visually-hidden" role="status"></div>
+  <div id="pull" class="pull glass" aria-hidden="true"><span data-icon="down"></span><span>下拉刷新图片</span></div>
+  <dialog id="detail" aria-labelledby="dialog-title"><div id="detail-body"></div></dialog>
+  <template id="photo-card">
+    <article class="card glass">
+      <button class="card-button" type="button">
+        <div class="photo"><img alt="" width="840" height="540" loading="lazy"><span class="view-badge"></span><span class="open-icon glass" data-icon="expand"></span></div>
+        <div class="card-text"><div><span class="vehicle-type"></span><h3></h3></div><div class="card-palette" aria-hidden="true"></div></div>
+      </button>
+    </article>
+  </template>
+</body>
+</html>

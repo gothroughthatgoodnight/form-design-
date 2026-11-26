@@ -1,0 +1,666 @@
+{
+  "source": "NetCarShow",
+  "homepage": "https://www.netcarshow.com/",
+  "terms": "https://www.netcarshow.com/terms.html",
+  "reviewedOn": "2026-11-26",
+  "latestConceptsReviewedOn": "2026-11-26",
+  "latestConceptsSource": "https://www.netcarshow.com/latest-cars.html",
+  "latestConcepts": [
+    {
+      "id": "mg-go-2026"
+    },
+    {
+      "id": "idpolo-2026"
+    },
+    {
+      "id": "polestar-2030-2026"
+    },
+    {
+      "id": "crown-signia-2026"
+    }
+  ],
+  "types": {
+    "hatch": {
+      "label": "两厢",
+      "url": "https://www.netcarshow.com/explore/hatchback/"
+    },
+    "wagon": {
+      "label": "猎装 / 旅行车",
+      "url": "https://www.netcarshow.com/explore/estate-wagon/"
+    },
+    "suv": {
+      "label": "SUV",
+      "url": "https://www.netcarshow.com/explore/crossover-suv/"
+    },
+    "mpv": {
+      "label": "MPV",
+      "url": "https://www.netcarshow.com/explore/mpv/"
+    },
+    "coupe": {
+      "label": "轿跑 / GT",
+      "url": "https://www.netcarshow.com/explore/coupe/"
+    },
+    "supercar": {
+      "label": "超跑",
+      "url": "https://www.netcarshow.com/explore/coupe/"
+    },
+    "roadster": {
+      "label": "敞篷",
+      "url": "https://www.netcarshow.com/explore/cabrio/"
+    }
+  },
+  "topics": {
+    "all": {
+      "label": "全部资料",
+      "url": "https://www.netcarshow.com/"
+    },
+    "styling": {
+      "label": "外饰造型",
+      "url": "https://www.netcarshow.com/explore/"
+    },
+    "launch": {
+      "label": "新车资料",
+      "url": "https://www.netcarshow.com/latest-cars.html"
+    },
+    "concept": {
+      "label": "概念车",
+      "url": "https://www.netcarshow.com/explore/concept/"
+    },
+    "materials": {
+      "label": "材料应用",
+      "url": "https://www.netcarshow.com/"
+    },
+    "interview": {
+      "label": "设计师访谈",
+      "url": "https://www.netcarshow.com/"
+    }
+  },
+  "viewTips": {
+    "all": "进入图集后优先选择完整车身、透视清楚和明暗关系明确的照片。",
+    "front": "正视图练习：在原站选取左右对称、接近平视的车头照片。",
+    "side": "侧视图练习：在原站选取车身完整、前后轮轴接近平行的照片。",
+    "rear": "后视图练习：在原站选取能看清车尾宽度、后窗与尾灯关系的照片。",
+    "front45": "前 45° 练习：在原站选取同时呈现车头与侧面体量的照片。",
+    "rear45": "后 45° 练习：在原站选取能区分车尾平面与后轮肩的照片。",
+    "high": "高机位练习：在原站选取能看清车顶、机盖与轮轴位置的照片。"
+  },
+  "albums": [
+    {
+      "id": "polestar-2030-2026",
+      "title": "Polestar Formula 2030 Concept",
+      "year": 2026,
+      "type": "coupe",
+      "topics": [
+        "concept"
+      ],
+      "aliases": [
+        "Polestar Formula 2030",
+        "极星 Formula 2030"
+      ],
+      "url": "https://www.netcarshow.com/polestar/2026-formula_2030_concept/",
+      "exercise": "对照前双刃灯、后单刃灯与低车顶轮廓，再比较各视角的体量关系。"
+    },
+    {
+      "id": "crown-signia-2026",
+      "title": "Toyota Crown Signia GT-S Concept",
+      "year": 2026,
+      "type": "suv",
+      "topics": [
+        "concept"
+      ],
+      "aliases": [
+        "Toyota Crown Signia GT-S",
+        "Crown Signia GT-S",
+        "丰田 Crown Signia"
+      ],
+      "url": "https://www.netcarshow.com/toyota/2026-crown_signia_gt-s_concept/",
+      "exercise": "对比长车顶、轮拱与低车身姿态，观察同一车型的比例如何改变。",
+      "preview": {
+        "title": "Toyota Crown Signia GT-S Concept",
+        "view": "front45",
+        "source": "https://www.motor1.com/news/813543/toyota-crown-signia-sema-2026/",
+        "original": "https://cdn.motor1.com/images/mgl/g42yeE/s3/2026-toyota-crown-signia-gt-s-concept.jpg",
+        "credit": "Toyota · 经 Motor1 报道取得",
+        "license": "厂商供图 · 版权归 Toyota",
+        "licenseUrl": "https://pressroom.toyota.com/toyota-reimagines-crown-signia-as-gt-s-performance-concept-for-sema/",
+        "provider": "Toyota / Motor1",
+        "note": "Toyota 概念车供图，经 Motor1 报道取得 · 已保存到本机",
+        "id": "ref-crown-signia-2026",
+        "assetBase": "previews",
+        "type": "suv",
+        "modelKey": "ncs-crown-signia-2026",
+        "width": 1280,
+        "height": 720,
+        "colors": [
+          "#0F0E0E",
+          "#3C3F44",
+          "#686E7E",
+          "#A5A4A7",
+          "#E0E0E3"
+        ],
+        "cropped": false,
+        "reviewedOn": "2026-11-26"
+      }
+    },
+    {
+      "id": "a3-2025",
+      "title": "Audi A3 Sportback",
+      "year": 2025,
+      "type": "hatch",
+      "topics": [
+        "styling",
+        "launch"
+      ],
+      "aliases": [
+        "Audi A3 Sportback",
+        "奥迪 A3"
+      ],
+      "url": "https://www.netcarshow.com/audi/2025-a3_sportback/",
+      "exercise": "对比车顶弧线、侧窗和后轮拱的相对位置。",
+      "preview": {
+        "title": "Audi A3 Sportback · 2024 改款",
+        "view": "front45",
+        "source": "https://www.audi.com/en/photos/detail/audi-a3-sportback-122897",
+        "original": "https://uploads.audi.com/system/production/media/122897/images/254cf51abbd273b898d44e1a0dffc74e37c04d37/A240819_web_2880.jpg?1732008893",
+        "credit": "AUDI AG · A240819",
+        "license": "官方媒体图片 · 编辑用途免费",
+        "licenseUrl": "https://www.audi.com/en/photos/detail/audi-a3-sportback-122897",
+        "provider": "Audi Media Center",
+        "note": "官方 2024 改款照片；原站目录标注 2025 年款 · 画面已裁切",
+        "id": "ref-a3-2025",
+        "assetBase": "previews",
+        "type": "hatch",
+        "modelKey": "ncs-a3-2025",
+        "width": 1353,
+        "height": 886,
+        "colors": [
+          "#22190F",
+          "#543F23",
+          "#697787",
+          "#A9A39E",
+          "#E0DDDA"
+        ],
+        "cropped": true,
+        "reviewedOn": "2026-11-26"
+      }
+    },
+    {
+      "id": "golf-r-2025",
+      "title": "Volkswagen Golf R",
+      "year": 2025,
+      "type": "hatch",
+      "topics": [
+        "styling",
+        "launch"
+      ],
+      "aliases": [
+        "Volkswagen Golf R",
+        "高尔夫 R"
+      ],
+      "url": "https://www.netcarshow.com/volkswagen/2025-golf_r/",
+      "exercise": "用相同视角比较紧凑车身的前后悬与车头视觉宽度。",
+      "preview": {
+        "title": "Volkswagen Golf R · 2024 改款",
+        "view": "front45",
+        "source": "https://www.volkswagen-newsroom.com/en/the-new-golf-r-and-golf-r-variant-world-premiere-18466",
+        "original": "https://uploads.vw-mms.de/system/production/images/vwn/081/973/images/81510124bf89684314e9937b70d0e6c558785cf1/DB2024AU00897_web_1600.jpg?1736330287",
+        "credit": "Volkswagen AG",
+        "license": "官方媒体图片 · 编辑用途免费",
+        "licenseUrl": "https://www.volkswagen-newsroom.com/en/the-new-golf-r-and-golf-r-variant-world-premiere-18466",
+        "provider": "Volkswagen Newsroom",
+        "note": "官方 2024 改款照片；原站目录标注 2025 年款 · 已保存到本机",
+        "id": "ref-golf-r-2025",
+        "assetBase": "previews",
+        "type": "hatch",
+        "modelKey": "ncs-golf-r-2025",
+        "width": 1600,
+        "height": 1067,
+        "colors": [
+          "#080A11",
+          "#2E3494",
+          "#6A779C",
+          "#9EAFD9",
+          "#CCD6E5"
+        ],
+        "cropped": false,
+        "reviewedOn": "2026-11-26"
+      }
+    },
+    {
+      "id": "v60-2019",
+      "title": "Volvo V60",
+      "year": 2019,
+      "type": "wagon",
+      "topics": [
+        "styling"
+      ],
+      "aliases": [
+        "Volvo V60",
+        "沃尔沃 V60"
+      ],
+      "url": "https://www.netcarshow.com/volvo/2019-v60/",
+      "exercise": "先提取长车顶和侧窗轮廓，再观察尾部的收束。"
+    },
+    {
+      "id": "taycan-st-2022",
+      "title": "Porsche Taycan Sport Turismo",
+      "year": 2022,
+      "type": "wagon",
+      "topics": [
+        "styling"
+      ],
+      "aliases": [
+        "Porsche Taycan Sport Turismo",
+        "保时捷 Taycan"
+      ],
+      "url": "https://www.netcarshow.com/porsche/2022-taycan_sport_turismo/",
+      "exercise": "比较车顶末端与后轮肩如何共同定义长顶比例。",
+      "preview": {
+        "title": "Porsche Taycan Sport Turismo · 2022",
+        "view": "side",
+        "source": "https://newsroom.porsche.com/en/2022/products/porsche-taycan-sport-turismo-premiere-27075.html",
+        "original": "https://newsroom.porsche.com/.imaging/mte/porsche-templating-theme/image_1080x624/dam/pnr/2022/Products/Taycan-Sport-Turismo/Exterior/Taycan_Sport_Turismo_4_highres.jpeg/jcr:content/Taycan_Sport_Turismo_4_highres.jpeg",
+        "credit": "Porsche AG",
+        "license": "官方媒体图片 · 版权归 Porsche AG",
+        "licenseUrl": "https://newsroom.porsche.com/en/2022/products/porsche-taycan-sport-turismo-premiere-27075.html",
+        "provider": "Porsche Newsroom",
+        "note": "Porsche 官方 2022 Sport Turismo 照片 · 画面已裁切",
+        "id": "ref-taycan-st-2022",
+        "assetBase": "previews",
+        "type": "wagon",
+        "modelKey": "ncs-taycan-st-2022",
+        "width": 1167,
+        "height": 655,
+        "colors": [
+          "#030304",
+          "#171729",
+          "#28335A",
+          "#3B4059",
+          "#696872"
+        ],
+        "cropped": true,
+        "reviewedOn": "2026-11-26"
+      }
+    },
+    {
+      "id": "cla-sb-2026",
+      "title": "Mercedes-Benz CLA Shooting Brake",
+      "year": 2026,
+      "type": "wagon",
+      "topics": [
+        "styling",
+        "launch"
+      ],
+      "aliases": [
+        "Mercedes-Benz CLA Shooting Brake",
+        "CLA Shooting Brake",
+        "奔驰 CLA 猎装"
+      ],
+      "url": "https://www.netcarshow.com/mercedes-benz/2026-cla_shooting_brake/",
+      "exercise": "把侧窗和车身外轮廓分别画成两条线，再比较相互间距。"
+    },
+    {
+      "id": "defender-2020",
+      "title": "Land Rover Defender 110",
+      "year": 2020,
+      "type": "suv",
+      "topics": [
+        "styling",
+        "materials"
+      ],
+      "aliases": [
+        "Land Rover Defender 110",
+        "路虎 卫士"
+      ],
+      "url": "https://www.netcarshow.com/land_rover/2020-defender_110/",
+      "exercise": "观察方正体量、短悬与外饰防护件；材料资料可查阅车漆保护膜段落。"
+    },
+    {
+      "id": "ioniq5-2022",
+      "title": "Hyundai IONIQ 5",
+      "year": 2022,
+      "type": "suv",
+      "topics": [
+        "styling"
+      ],
+      "aliases": [
+        "Hyundai IONIQ 5",
+        "现代 IONIQ 5"
+      ],
+      "url": "https://www.netcarshow.com/hyundai/2022-ioniq_5/",
+      "exercise": "区分主要车身体量和表面折线，避免用线代替面的转折。"
+    },
+    {
+      "id": "cx5-2026",
+      "title": "Mazda CX-5",
+      "year": 2026,
+      "type": "suv",
+      "topics": [
+        "styling",
+        "launch"
+      ],
+      "aliases": [
+        "Mazda CX-5",
+        "马自达 CX-5"
+      ],
+      "url": "https://www.netcarshow.com/mazda/2026-cx-5/",
+      "exercise": "对照轮拱、侧窗和腰部高光，分析 SUV 的体量分配。"
+    },
+    {
+      "id": "staria-2022",
+      "title": "Hyundai STARIA",
+      "year": 2022,
+      "type": "mpv",
+      "topics": [
+        "styling"
+      ],
+      "aliases": [
+        "Hyundai STARIA",
+        "现代 STARIA"
+      ],
+      "url": "https://www.netcarshow.com/hyundai/2022-staria/",
+      "exercise": "先抓完整车顶弧线，再比较侧窗和车身下部的比例。"
+    },
+    {
+      "id": "carnival-2025",
+      "title": "Kia Carnival",
+      "year": 2025,
+      "type": "mpv",
+      "topics": [
+        "styling",
+        "launch"
+      ],
+      "aliases": [
+        "Kia Carnival",
+        "起亚 嘉华"
+      ],
+      "url": "https://www.netcarshow.com/kia/2025-carnival/",
+      "exercise": "比较车头与长车身的尺度，避免把侧视画成等长的矩形。"
+    },
+    {
+      "id": "em90-2024",
+      "title": "Volvo EM90",
+      "year": 2024,
+      "type": "mpv",
+      "topics": [
+        "styling"
+      ],
+      "aliases": [
+        "Volvo EM90",
+        "沃尔沃 EM90"
+      ],
+      "url": "https://www.netcarshow.com/volvo/2024-em90/",
+      "exercise": "分开练习玻璃区域、腰线和下包围三个横向层次。",
+      "preview": {
+        "title": "Volvo EM90 · MY2024",
+        "view": "side",
+        "source": "https://www.volvocars.com.cn/zh-cn/cars/em90-electric/",
+        "original": "https://www.volvocars.com.cn/images/cs/v3/assets/bltab26d231d43e6180/blt2e69f37c0ccecc50/67d152fc20cb2f2d857e00e5/em90-bev-my24.png?branch=prod_alias&quality=85&format=auto&h=1080&iar=0&w=1920",
+        "credit": "Volvo Cars",
+        "license": "官方车型图片 · 版权归 Volvo Cars",
+        "licenseUrl": "https://www.volvocars.com.cn/zh-cn/cars/em90-electric/",
+        "provider": "Volvo Cars China",
+        "note": "Volvo 中国官网 MY2024 车型图 · 画面已裁切并加中性背景",
+        "id": "ref-em90-2024",
+        "assetBase": "previews",
+        "type": "mpv",
+        "modelKey": "ncs-em90-2024",
+        "width": 1460,
+        "height": 638,
+        "colors": [
+          "#060606",
+          "#3E3E3E",
+          "#6C6B6B",
+          "#A9A8A6",
+          "#DCDBDA"
+        ],
+        "cropped": true,
+        "reviewedOn": "2026-11-26"
+      }
+    },
+    {
+      "id": "gr86-2022",
+      "title": "Toyota GR 86",
+      "year": 2022,
+      "type": "coupe",
+      "topics": [
+        "styling"
+      ],
+      "aliases": [
+        "Toyota GR86",
+        "Toyota GR 86",
+        "丰田 GR86"
+      ],
+      "url": "https://www.netcarshow.com/toyota/2022-gr_86/",
+      "exercise": "先用轮轴和座舱定位，再处理机盖和尾部的长度关系。"
+    },
+    {
+      "id": "a110-2022",
+      "title": "Alpine A110",
+      "year": 2022,
+      "type": "coupe",
+      "topics": [
+        "styling"
+      ],
+      "aliases": [
+        "Alpine A110"
+      ],
+      "url": "https://www.netcarshow.com/alpine/2022-a110/",
+      "exercise": "比较前后翼子板与座舱之间的层次，不只勾外轮廓。"
+    },
+    {
+      "id": "z-2023",
+      "title": "Nissan Z",
+      "year": 2023,
+      "type": "coupe",
+      "topics": [
+        "styling"
+      ],
+      "aliases": [
+        "Nissan Z",
+        "日产 Z"
+      ],
+      "url": "https://www.netcarshow.com/nissan/2023-z/",
+      "exercise": "将侧视轮廓与前后 45° 图对照，检查长机盖比例的一致性。"
+    },
+    {
+      "id": "f40-1987",
+      "title": "Ferrari F40",
+      "year": 1987,
+      "type": "supercar",
+      "topics": [
+        "styling"
+      ],
+      "aliases": [
+        "Ferrari F40",
+        "法拉利 F40"
+      ],
+      "url": "https://www.netcarshow.com/ferrari/1987-f40/",
+      "exercise": "先画楔形基本体，再用明暗区分机盖、座舱与后翼。"
+    },
+    {
+      "id": "p1-2014",
+      "title": "McLaren P1",
+      "year": 2014,
+      "type": "supercar",
+      "topics": [
+        "styling",
+        "materials"
+      ],
+      "aliases": [
+        "McLaren P1",
+        "迈凯伦 P1"
+      ],
+      "url": "https://www.netcarshow.com/mclaren/2014-p1/",
+      "exercise": "观察车身收腰与通道的负形；材料资料可查阅碳纤维车身段落。"
+    },
+    {
+      "id": "aventador-2012",
+      "title": "Lamborghini Aventador LP700-4",
+      "year": 2012,
+      "type": "supercar",
+      "topics": [
+        "styling"
+      ],
+      "aliases": [
+        "Lamborghini Aventador",
+        "兰博基尼 Aventador"
+      ],
+      "url": "https://www.netcarshow.com/lamborghini/2012-aventador_lp700-4/",
+      "exercise": "先区分大的受光平面，再处理锐利折线与进气口。"
+    },
+    {
+      "id": "mx5-2016",
+      "title": "Mazda MX-5",
+      "year": 2016,
+      "type": "roadster",
+      "topics": [
+        "styling"
+      ],
+      "aliases": [
+        "Mazda MX-5",
+        "马自达 MX-5"
+      ],
+      "url": "https://www.netcarshow.com/mazda/2016-mx-5/",
+      "exercise": "对照开篷和闭篷状态，练习座舱与后轮肩的关系。"
+    },
+    {
+      "id": "s2000-2002",
+      "title": "Honda S2000",
+      "year": 2002,
+      "type": "roadster",
+      "topics": [
+        "styling"
+      ],
+      "aliases": [
+        "Honda S2000",
+        "本田 S2000"
+      ],
+      "url": "https://www.netcarshow.com/honda/2002-s2000/",
+      "exercise": "比较机盖长度与座舱位置，保持敞篷双座车的轻巧姿态。"
+    },
+    {
+      "id": "mission-s-2026",
+      "title": "Porsche Mission S Concept",
+      "year": 2026,
+      "type": "supercar",
+      "topics": [
+        "concept"
+      ],
+      "aliases": [
+        "Porsche Mission S",
+        "保时捷 Mission S"
+      ],
+      "url": "https://www.netcarshow.com/porsche/2026-mission_s_concept/",
+      "exercise": "从前后轮肩与座舱三个体量开始，检查各视角如何对应。",
+      "preview": {
+        "title": "Porsche Mission S Concept",
+        "view": "front45",
+        "source": "https://newsroom.porsche.com/en/2026/products/porsche-mission-s-vision-model-43528.html",
+        "original": "https://porschepictures.flowcenter.de/pmdb/thumbnail.cgi?id=341404&w=700&h=525&crop=0&public=1&cs=b5ccf4da2a7b6792",
+        "credit": "Porsche AG",
+        "license": "官方媒体图片 · 版权归 Porsche AG",
+        "licenseUrl": "https://newsroom.porsche.com/en/2026/products/porsche-mission-s-vision-model-43528.html",
+        "provider": "Porsche Newsroom",
+        "note": "Porsche 官方概念车照片 · 已保存到本机",
+        "id": "ref-mission-s-2026",
+        "assetBase": "previews",
+        "type": "supercar",
+        "modelKey": "ncs-mission-s-2026",
+        "width": 700,
+        "height": 394,
+        "colors": [
+          "#0F0F12",
+          "#38383C",
+          "#77767C",
+          "#B4B4B8",
+          "#E9E8EC"
+        ],
+        "cropped": false,
+        "reviewedOn": "2026-11-26"
+      }
+    },
+    {
+      "id": "mg-go-2026",
+      "title": "MG GO Concept",
+      "year": 2026,
+      "type": "hatch",
+      "topics": [
+        "concept"
+      ],
+      "aliases": [
+        "MG GO Concept",
+        "名爵 GO"
+      ],
+      "url": "https://www.netcarshow.com/mg/2026-go_concept/",
+      "exercise": "提取主轮廓和灯组图形，尝试用更少的线概括主题。",
+      "preview": {
+        "title": "MG GO Concept",
+        "view": "front45",
+        "source": "https://mgmotor.media/neue-bilder-vom-konzeptfahrzeug-mg-go/",
+        "original": "https://s3-eu-central-1.amazonaws.com/mgmotor-media/wp-media-folder-mg-motor-deutschland/wp-content/uploads/2026/11/mg-motor-deutschland_mg-go-concept_21.jpg",
+        "credit": "MG Motor Europe",
+        "license": "官方媒体图片 · 版权归 MG Motor",
+        "licenseUrl": "https://mgmotor.media/neue-bilder-vom-konzeptfahrzeug-mg-go/",
+        "provider": "MG Motor Media",
+        "note": "MG 官方概念车照片 · 已保存到本机",
+        "id": "ref-mg-go-2026",
+        "assetBase": "previews",
+        "type": "hatch",
+        "modelKey": "ncs-mg-go-2026",
+        "width": 1467,
+        "height": 1100,
+        "colors": [
+          "#270B06",
+          "#912203",
+          "#DC5731",
+          "#FE8A69",
+          "#F0D2BE"
+        ],
+        "cropped": false,
+        "reviewedOn": "2026-11-26"
+      }
+    },
+    {
+      "id": "idpolo-2026",
+      "title": "Volkswagen ID.Polo GTI Clubsport Concept",
+      "year": 2026,
+      "type": "hatch",
+      "topics": [
+        "concept"
+      ],
+      "aliases": [
+        "Volkswagen ID.Polo GTI Clubsport",
+        "大众 ID.Polo"
+      ],
+      "url": "https://www.netcarshow.com/volkswagen/2026-id.polo_gti_clubsport_concept/",
+      "exercise": "把基本车身体量与运动化外饰件分层绘制，再比较视觉效果。",
+      "preview": {
+        "title": "Volkswagen ID.Polo GTI Clubsport Concept",
+        "view": "side",
+        "source": "https://www.volkswagen-newsroom.com/de/pressemitteilungen/neuer-id-polo-gti-clubsport-concept-dieser-elektrische-gti-ist-bereit-fuer-die-rennstrecke-20873",
+        "original": "https://uploads.vw-mms.de/system/production/images/vwn/089/074/images/9cf0442c507435dca66ad1004627fa68ef331703/DB2026AU01245_web_1600.jpg?1795165087",
+        "credit": "Volkswagen AG",
+        "license": "官方媒体图片 · 编辑用途免费",
+        "licenseUrl": "https://www.volkswagen-newsroom.com/de/pressemitteilungen/neuer-id-polo-gti-clubsport-concept-dieser-elektrische-gti-ist-bereit-fuer-die-rennstrecke-20873",
+        "provider": "Volkswagen Newsroom",
+        "note": "Volkswagen 官方概念车照片 · 已保存到本机",
+        "id": "ref-idpolo-2026",
+        "assetBase": "previews",
+        "type": "hatch",
+        "modelKey": "ncs-idpolo-2026",
+        "width": 1600,
+        "height": 1067,
+        "colors": [
+          "#141414",
+          "#444242",
+          "#7E807F",
+          "#A6A8A6",
+          "#E0E0E0"
+        ],
+        "cropped": false,
+        "reviewedOn": "2026-11-26"
+      }
+    }
+  ]
+}
