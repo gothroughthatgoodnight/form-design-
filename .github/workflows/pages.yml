@@ -1,0 +1,83 @@
+name: Update resources and publish Pages
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 16 * * *'
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: form-pages
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - name: Restore verified website files on first deployment
+        if: hashFiles('package.json') == ''
+        shell: python
+        run: |
+          from pathlib import Path, PurePosixPath
+          from io import BytesIO
+          from zipfile import ZipFile
+          import hashlib
+          payload = b''.join(Path(f'form-pages-part-{i:03d}.bin').read_bytes() for i in range(1, 5))
+          expected = 'ed33b0a3f0a737e1dc99d2c243933a75a59112e0b37d74950c6ed95e59d3ba33'
+          if hashlib.sha256(payload).hexdigest() != expected:
+              raise ValueError('Resource package integrity check failed')
+          allowed = {'site', 'lib', 'data', 'package.json', 'pnpm-lock.yaml', 'pnpm-workspace.yaml', '.gitignore', 'README.md', 'publish-pages.mjs', 'verify-pages.mjs'}
+          root = Path.cwd().resolve()
+          with ZipFile(BytesIO(payload)) as archive:
+              if archive.testzip():
+                  raise ValueError('Invalid resource archive')
+              for entry in archive.infolist():
+                  original = PurePosixPath(entry.filename)
+                  if not original.parts or original.parts[0] != 'form-github-pages':
+                      raise ValueError('Unexpected archive root')
+                  relative = PurePosixPath(*original.parts[1:])
+                  if not relative.parts or relative.parts[0] == '.github':
+                      continue
+                  if relative.is_absolute() or '..' in relative.parts or relative.parts[0] not in allowed:
+                      raise ValueError('Unexpected deployment path')
+                  target = root.joinpath(*relative.parts)
+                  if not target.resolve().is_relative_to(root):
+                      raise ValueError('Invalid deployment path')
+                  target.parent.mkdir(parents=True, exist_ok=True)
+                  if not entry.is_dir():
+                      target.write_bytes(archive.read(entry))
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Install pinned dependencies
+        run: npx --yes pnpm@11.25.0 install --prod --frozen-lockfile
+      - name: Fetch sources and publish saved snapshots
+        run: node publish-pages.mjs --refresh
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+      - name: Verify published files
+        run: node verify-pages.mjs
+      - name: Save complete website files and resource updates
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- .gitignore README.md package.json pnpm-lock.yaml pnpm-workspace.yaml publish-pages.mjs verify-pages.mjs lib data site
+          if ! git diff --cached --quiet; then
+            git commit -m 'Publish FORM websites and update automotive resources'
+            git push
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+      - name: Deploy both websites
+        id: deployment
+        uses: actions/deploy-pages@v4
